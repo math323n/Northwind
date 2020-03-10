@@ -47,7 +47,7 @@ namespace Northwind.Tests
             string correctMail = "mara@aspit.dk";
             string mailMissingSnabelA = "maraaspit.dk";
             string mailMissingTld = "mara@aspitdk";
-            string emptyStringMail = String.Empty;
+            string emptyStringMail = string.Empty;
             string nullMail = null;
 
             // Act:

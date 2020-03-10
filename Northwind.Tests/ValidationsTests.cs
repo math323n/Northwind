@@ -1,5 +1,4 @@
 ﻿using Northwind.Utilities;
-using System;
 using Xunit;
 
 namespace Northwind.Tests
@@ -11,7 +10,7 @@ namespace Northwind.Tests
             // Arrange:
             string text = "Mads";
             string nullText = null;
-            string empty = String.Empty;
+            string empty = string.Empty;
             string numbers = "1234";
             string otherChars = "!#¤%";
             string textWithNumber = "Mad5";
